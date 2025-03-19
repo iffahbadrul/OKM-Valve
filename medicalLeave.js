@@ -30,7 +30,7 @@
             let leaveYear = leaveDate.getFullYear();
 
             if (leaveYear !== currentYear) {
-                event.error = `You can only apply for leave in the current year ${currentYear}.`;
+                event.error = `You can only apply for medical leave in the current year ${currentYear}.`;
                 return event;
             }
         }
